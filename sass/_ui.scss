@@ -1,0 +1,22 @@
+.album-list-row {
+	margin: 0.5em 0;
+	
+	.g-col {
+		p {
+			margin: 1em 0;
+		}
+	}
+}
+
+ul.tax-list {
+	li {
+		margin: 0.8em 0;
+		a {
+			color: $dark-grey;
+			transition: color 0.3s ease;
+		}
+		a:hover {
+			color: $electric !important;
+		}
+	}
+}

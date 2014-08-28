@@ -1,0 +1,38 @@
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    .g-col {
+    	&.appear {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .g-col {
+    	&.appear {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    .g-col {
+    	&.stack {
+    		width: 100%;
+    		padding: 10px 2%;
+    	}
+
+    	&.disappear {
+    		display: none;
+    	}
+
+    	&.appear {
+    		display: block;
+    	}
+    }
+
+    header {
+    	padding: 10px 0 !important;
+    }
+}
